@@ -89,10 +89,10 @@ public class MainActivity extends AppCompatActivity {
         btnPause.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(btnPause.getText().equals("일시정지")){
+                if(btnPause.getText().equals("일시중지")){
                     media.pause();
                     btnPause.setText("이어 듣기");
-                }else if(btnPause.getText().equals("이어듣기")){
+                }else if(btnPause.getText().equals("이어 듣기")){
                     media.start();
                     runOnThread();
                     btnPause.setText("일시중지");
