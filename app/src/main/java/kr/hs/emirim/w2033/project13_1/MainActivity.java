@@ -62,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
         btnPause = findViewById(R.id.btn_pause);
         btnStop = findViewById(R.id.btn_stop);
         textMusic = findViewById(R.id.text_music);
-        proBar = findViewById(R.id.progress);
+        //proBar = findViewById(R.id.progress);
 
         btnStart.setOnClickListener(new View.OnClickListener() {
             @Override
